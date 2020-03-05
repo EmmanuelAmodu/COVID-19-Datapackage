@@ -1,2094 +1,2094 @@
 {
-    "last_updated": "2020-03-05 15:44:58",
-    "description": "daily time series of COVID-19 case summary tables, including confirmed, deaths and recovered. All data are from the daily case report.",
-    "title": "Covid datapackage",
-    "image": "http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png",
-    "licenses": [
-        {
-            "path": "http://opendatacommons.org/licenses/pddl/",
-            "name": "ODC-PDDL",
-            "title": "Open Data Commons Public Domain Dedication and License"
-        }
-    ],
-    "keywords": [
-        "COVID-19",
-        "COVID-19 confirmed cases",
-        "COVID-19 deaths",
-        "COVID-19 recovered"
-    ],
-    "resources": [
-        {
-            "path": "Canada.csv",
-            "name": "Canada",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Lithuania.csv",
-            "name": "Lithuania",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Cambodia.csv",
-            "name": "Cambodia",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Argentina.csv",
-            "name": "Argentina",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Bahrain.csv",
-            "name": "Bahrain",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Saudi Arabia.csv",
-            "name": "Saudi Arabia",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Others.csv",
-            "name": "Others",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Germany.csv",
-            "name": "Germany",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Saint Barthelemy.csv",
-            "name": "Saint Barthelemy",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Spain.csv",
-            "name": "Spain",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Netherlands.csv",
-            "name": "Netherlands",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Oman.csv",
-            "name": "Oman",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "North Macedonia.csv",
-            "name": "North Macedonia",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Monaco.csv",
-            "name": "Monaco",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "New Zealand.csv",
-            "name": "New Zealand",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Pakistan.csv",
-            "name": "Pakistan",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Macau.csv",
-            "name": "Macau",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "United Arab Emirates.csv",
-            "name": "United Arab Emirates",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "India.csv",
-            "name": "India",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Azerbaijan.csv",
-            "name": "Azerbaijan",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "South Korea.csv",
-            "name": "South Korea",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Afghanistan.csv",
-            "name": "Afghanistan",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Czech Republic.csv",
-            "name": "Czech Republic",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "San Marino.csv",
-            "name": "San Marino",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "France.csv",
-            "name": "France",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Norway.csv",
-            "name": "Norway",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Singapore.csv",
-            "name": "Singapore",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Armenia.csv",
-            "name": "Armenia",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Dominican Republic.csv",
-            "name": "Dominican Republic",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Ukraine.csv",
-            "name": "Ukraine",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Finland.csv",
-            "name": "Finland",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Indonesia.csv",
-            "name": "Indonesia",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Sweden.csv",
-            "name": "Sweden",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Vietnam.csv",
-            "name": "Vietnam",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Russia.csv",
-            "name": "Russia",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Romania.csv",
-            "name": "Romania",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Portugal.csv",
-            "name": "Portugal",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Liechtenstein.csv",
-            "name": "Liechtenstein",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "US.csv",
-            "name": "US",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Malaysia.csv",
-            "name": "Malaysia",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Senegal.csv",
-            "name": "Senegal",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "UK.csv",
-            "name": "UK",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Hungary.csv",
-            "name": "Hungary",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Brazil.csv",
-            "name": "Brazil",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Faroe Islands.csv",
-            "name": "Faroe Islands",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Kuwait.csv",
-            "name": "Kuwait",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Luxembourg.csv",
-            "name": "Luxembourg",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Andorra.csv",
-            "name": "Andorra",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Gibraltar.csv",
-            "name": "Gibraltar",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Ireland.csv",
-            "name": "Ireland",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Nigeria.csv",
-            "name": "Nigeria",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Ecuador.csv",
-            "name": "Ecuador",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Australia.csv",
-            "name": "Australia",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Iran.csv",
-            "name": "Iran",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Algeria.csv",
-            "name": "Algeria",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Chile.csv",
-            "name": "Chile",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Belgium.csv",
-            "name": "Belgium",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Thailand.csv",
-            "name": "Thailand",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Mainland China.csv",
-            "name": "Mainland China",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Hong Kong.csv",
-            "name": "Hong Kong",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Georgia.csv",
-            "name": "Georgia",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Denmark.csv",
-            "name": "Denmark",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Poland.csv",
-            "name": "Poland",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Morocco.csv",
-            "name": "Morocco",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Croatia.csv",
-            "name": "Croatia",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Switzerland.csv",
-            "name": "Switzerland",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Iraq.csv",
-            "name": "Iraq",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Estonia.csv",
-            "name": "Estonia",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Lebanon.csv",
-            "name": "Lebanon",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Tunisia.csv",
-            "name": "Tunisia",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Taiwan.csv",
-            "name": "Taiwan",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Qatar.csv",
-            "name": "Qatar",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Italy.csv",
-            "name": "Italy",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Nepal.csv",
-            "name": "Nepal",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Israel.csv",
-            "name": "Israel",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Iceland.csv",
-            "name": "Iceland",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Austria.csv",
-            "name": "Austria",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Jordan.csv",
-            "name": "Jordan",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Philippines.csv",
-            "name": "Philippines",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Latvia.csv",
-            "name": "Latvia",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Japan.csv",
-            "name": "Japan",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Belarus.csv",
-            "name": "Belarus",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Mexico.csv",
-            "name": "Mexico",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Egypt.csv",
-            "name": "Egypt",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Greece.csv",
-            "name": "Greece",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        },
-        {
-            "path": "Sri Lanka.csv",
-            "name": "Sri Lanka",
-            "schema": {
-                "fields": [
-                    {
-                        "type": "Int",
-                        "name": "Confirmed"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Deaths"
-                    },
-                    {
-                        "type": "Int",
-                        "name": "Recovered"
-                    },
-                    {
-                        "type": "Datetime",
-                        "name": "Dates"
-                    }
-                ]
-            }
-        }
-    ],
-    "name": "covid-datapackage",
+    "last_updated": "2020-03-05 22:18:44", 
+    "description": "daily time series of COVID-19 case summary tables, including confirmed, deaths and recovered. All data are from the daily case report.", 
+    "title": "Covid datapackage", 
+    "image": "http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png", 
     "sources": [
         {
-            "name": "CSSE COVID-19 Dataset",
-            "path": "https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data",
+            "path": "https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data", 
+            "name": "CSSE COVID-19 Dataset", 
             "title": "Daily reports (csse_covid_19_daily_reports)"
         }
-    ],
-    "version": "1"
+    ], 
+    "version": "1", 
+    "keywords": [
+        "COVID-19", 
+        "COVID-19 confirmed cases", 
+        "COVID-19 deaths", 
+        "COVID-19 recovered"
+    ], 
+    "licenses": [
+        {
+            "path": "http://opendatacommons.org/licenses/pddl/", 
+            "name": "ODC-PDDL", 
+            "title": "Open Data Commons Public Domain Dedication and License"
+        }
+    ], 
+    "resources": [
+        {
+            "path": "canada.csv", 
+            "name": "canada", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "lithuania.csv", 
+            "name": "lithuania", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "cambodia.csv", 
+            "name": "cambodia", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "argentina.csv", 
+            "name": "argentina", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "bahrain.csv", 
+            "name": "bahrain", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "saudi_arabia.csv", 
+            "name": "saudi_arabia", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "others.csv", 
+            "name": "others", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "germany.csv", 
+            "name": "germany", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "saint_barthelemy.csv", 
+            "name": "saint_barthelemy", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "spain.csv", 
+            "name": "spain", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "netherlands.csv", 
+            "name": "netherlands", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "oman.csv", 
+            "name": "oman", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "north_macedonia.csv", 
+            "name": "north_macedonia", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "monaco.csv", 
+            "name": "monaco", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "new_zealand.csv", 
+            "name": "new_zealand", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "pakistan.csv", 
+            "name": "pakistan", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "macau.csv", 
+            "name": "macau", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "united_arab_emirates.csv", 
+            "name": "united_arab_emirates", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "india.csv", 
+            "name": "india", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "azerbaijan.csv", 
+            "name": "azerbaijan", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "south_korea.csv", 
+            "name": "south_korea", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "afghanistan.csv", 
+            "name": "afghanistan", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "czech_republic.csv", 
+            "name": "czech_republic", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "san_marino.csv", 
+            "name": "san_marino", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "france.csv", 
+            "name": "france", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "norway.csv", 
+            "name": "norway", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "singapore.csv", 
+            "name": "singapore", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "armenia.csv", 
+            "name": "armenia", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "dominican_republic.csv", 
+            "name": "dominican_republic", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "ukraine.csv", 
+            "name": "ukraine", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "finland.csv", 
+            "name": "finland", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "indonesia.csv", 
+            "name": "indonesia", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "sweden.csv", 
+            "name": "sweden", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "vietnam.csv", 
+            "name": "vietnam", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "russia.csv", 
+            "name": "russia", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "romania.csv", 
+            "name": "romania", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "portugal.csv", 
+            "name": "portugal", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "liechtenstein.csv", 
+            "name": "liechtenstein", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "us.csv", 
+            "name": "us", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "malaysia.csv", 
+            "name": "malaysia", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "senegal.csv", 
+            "name": "senegal", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "uk.csv", 
+            "name": "uk", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "hungary.csv", 
+            "name": "hungary", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "brazil.csv", 
+            "name": "brazil", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "faroe_islands.csv", 
+            "name": "faroe_islands", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "kuwait.csv", 
+            "name": "kuwait", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "luxembourg.csv", 
+            "name": "luxembourg", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "andorra.csv", 
+            "name": "andorra", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "gibraltar.csv", 
+            "name": "gibraltar", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "ireland.csv", 
+            "name": "ireland", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "nigeria.csv", 
+            "name": "nigeria", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "ecuador.csv", 
+            "name": "ecuador", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "australia.csv", 
+            "name": "australia", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "iran.csv", 
+            "name": "iran", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "algeria.csv", 
+            "name": "algeria", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "chile.csv", 
+            "name": "chile", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "belgium.csv", 
+            "name": "belgium", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "thailand.csv", 
+            "name": "thailand", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "mainland_china.csv", 
+            "name": "mainland_china", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "hong_kong.csv", 
+            "name": "hong_kong", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "georgia.csv", 
+            "name": "georgia", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "denmark.csv", 
+            "name": "denmark", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "poland.csv", 
+            "name": "poland", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "morocco.csv", 
+            "name": "morocco", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "croatia.csv", 
+            "name": "croatia", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "switzerland.csv", 
+            "name": "switzerland", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "iraq.csv", 
+            "name": "iraq", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "estonia.csv", 
+            "name": "estonia", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "lebanon.csv", 
+            "name": "lebanon", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "tunisia.csv", 
+            "name": "tunisia", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "taiwan.csv", 
+            "name": "taiwan", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "qatar.csv", 
+            "name": "qatar", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "italy.csv", 
+            "name": "italy", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "nepal.csv", 
+            "name": "nepal", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "israel.csv", 
+            "name": "israel", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "iceland.csv", 
+            "name": "iceland", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "austria.csv", 
+            "name": "austria", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "jordan.csv", 
+            "name": "jordan", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "philippines.csv", 
+            "name": "philippines", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "latvia.csv", 
+            "name": "latvia", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "japan.csv", 
+            "name": "japan", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "belarus.csv", 
+            "name": "belarus", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "mexico.csv", 
+            "name": "mexico", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "egypt.csv", 
+            "name": "egypt", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "greece.csv", 
+            "name": "greece", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }, 
+        {
+            "path": "sri_lanka.csv", 
+            "name": "sri_lanka", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "number", 
+                        "name": "confirmed"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "date"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "deaths"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "recovered"
+                    }
+                ]
+            }
+        }
+    ], 
+    "name": "covid-datapackage"
 }

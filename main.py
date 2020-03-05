@@ -9,9 +9,9 @@ import numpy as np
 from StringIO import StringIO
 
 urls = {
-    'Confirmed': 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv',
-    'Recovered':  'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv',
-    'Deaths':  'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv',
+    'confirmed': 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv',
+    'recovered':  'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv',
+    'deaths':  'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv',
 }
 
 
@@ -41,12 +41,13 @@ def main(data):
 
 
 def sortObject(countriesData):
+    countries = []
     for country in countriesData:
         info = {}
         for about in countriesData[country]:
-            info['Date'] = []
+            info['date'] = []
             for date in countriesData[country][about]:
-                info['Date'].append(date)
+                info['date'].append(date)
                 if about in info:
                     pass
                 else:
@@ -54,34 +55,36 @@ def sortObject(countriesData):
                 info[about].append(countriesData[country][about][date])
 
         countryDate = pd.DataFrame.from_dict(info)
-        countryDate.to_csv(country + '.csv', index=False)
+        cleanedCountyName = country.lower().replace(" ", "_")
+        countries.append(cleanedCountyName)
+        countryDate.to_csv(cleanedCountyName + '.csv', index=False)
 
-    updateDataPackage(countriesData)
+    updateDataPackage(countries)
 
 
-def updateDataPackage(countriesData):
+def updateDataPackage(countries):
     resources = []
-    for country in countriesData:
+    for country in countries:
         resources.append({
             "name": country,
             "path": country + ".csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "Confirmed",
-                        "type": "Int"
+                        "name": "confirmed",
+                        "type": "number"
                     },
                     {
-                        "name": "Deaths",
-                        "type": "Int"
+                        "name": "date",
+                        "type": "string"
                     },
                     {
-                        "name": "Recovered",
-                        "type": "Int"
+                        "name": "deaths",
+                        "type": "number"
                     },
                     {
-                        "name": "Dates",
-                        "type": "Datetime"
+                        "name": "recovered",
+                        "type": "number"
                     }
                 ]
             }
